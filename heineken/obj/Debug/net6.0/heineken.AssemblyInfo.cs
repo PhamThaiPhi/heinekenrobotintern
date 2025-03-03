@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("heineken")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49bcc98f4d6014df5c427adbc29884909ccfe5c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("heineken")]
 [assembly: System.Reflection.AssemblyTitleAttribute("heineken")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,7 @@
 using heineken.Data;
 using heineken.Service;
+using heineken.Service.GiftService;
+using heineken.Service.RobotService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IRobotService, RobotService>();
+builder.Services.AddScoped<IGiftService, GiftService>();
 
 
 

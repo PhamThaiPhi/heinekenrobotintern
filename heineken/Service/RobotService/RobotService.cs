@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace heineken.Service
+namespace heineken.Service.RobotService
 {
     public class RobotService : IRobotService
     {
