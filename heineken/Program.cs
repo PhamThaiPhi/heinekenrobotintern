@@ -1,6 +1,7 @@
 using heineken.Data;
 using heineken.Service;
 using heineken.Service.GiftService;
+using heineken.Service.LocationService;
 using heineken.Service.RobotService;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,7 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IRobotService, RobotService>();
 builder.Services.AddScoped<IGiftService, GiftService>();
-
+builder.Services.AddScoped<ILocationService, LocationService>();
 
 
 
