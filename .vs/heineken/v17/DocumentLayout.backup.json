@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\heineken\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\controllers\\campaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\controllers\\campaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\campaignsservice\\icampaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\campaignsservice\\icampaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\campaignsservice\\campaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\campaignsservice\\campaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\models\\campaignmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\models\\campaignmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\data\\campaigns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\data\\campaigns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\models\\robotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\models\\robotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\locationservice\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +35,36 @@
       "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\locationservice\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\models\\giftmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\models\\giftmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\giftservice\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\giftservice\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\giftservice\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\giftservice\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\data\\robots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\data\\locations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\controllers\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\controllers\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\data\\gifts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,18 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\robotservice\\irobotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\robotservice\\irobotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\giftservice\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\giftservice\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\service\\giftservice\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\service\\giftservice\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\models\\robotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\models\\robotmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\data\\rewardrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\migrations\\20250226194734_adddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\migrations\\20250226194734_adddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|c:\\users\\admin\\source\\repos\\heineken\\heineken\\data\\campaigns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C0E497-8276-4886-8101-8319960F3CFD}|heineken\\heineken.csproj|solutionrelative:heineken\\data\\campaigns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,202 +126,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GiftModel.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\GiftModel.cs",
-              "RelativeDocumentMoniker": "heineken\\Models\\GiftModel.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\GiftModel.cs",
-              "RelativeToolTip": "heineken\\Models\\GiftModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T19:28:18.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LocationModel.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\LocationModel.cs",
-              "RelativeDocumentMoniker": "heineken\\Models\\LocationModel.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\LocationModel.cs",
-              "RelativeToolTip": "heineken\\Models\\LocationModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:11:20.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ILocationService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\ILocationService.cs",
-              "RelativeDocumentMoniker": "heineken\\Service\\LocationService\\ILocationService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\ILocationService.cs",
-              "RelativeToolTip": "heineken\\Service\\LocationService\\ILocationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Title": "CampaignService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\CampaignsService\\CampaignService.cs",
+              "RelativeDocumentMoniker": "heineken\\Service\\CampaignsService\\CampaignService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\CampaignsService\\CampaignService.cs",
+              "RelativeToolTip": "heineken\\Service\\CampaignsService\\CampaignService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:12:58.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocationService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\LocationService.cs",
-              "RelativeDocumentMoniker": "heineken\\Service\\LocationService\\LocationService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\LocationService.cs",
-              "RelativeToolTip": "heineken\\Service\\LocationService\\LocationService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwAUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:15:16.334Z",
+              "WhenOpened": "2025-03-10T02:57:09.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Program.cs",
-              "RelativeDocumentMoniker": "heineken\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Program.cs",
-              "RelativeToolTip": "heineken\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Title": "CampaignController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\CampaignController.cs",
+              "RelativeDocumentMoniker": "heineken\\Controllers\\CampaignController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\CampaignController.cs",
+              "RelativeToolTip": "heineken\\Controllers\\CampaignController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswF4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:40:07.927Z",
+              "WhenOpened": "2025-03-10T03:10:42.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICampaignService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\CampaignsService\\ICampaignService.cs",
+              "RelativeDocumentMoniker": "heineken\\Service\\CampaignsService\\ICampaignService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\CampaignsService\\ICampaignService.cs",
+              "RelativeToolTip": "heineken\\Service\\CampaignsService\\ICampaignService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:56:57.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CampaignModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\CampaignModel.cs",
+              "RelativeDocumentMoniker": "heineken\\Models\\CampaignModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\CampaignModel.cs*",
+              "RelativeToolTip": "heineken\\Models\\CampaignModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:02:58.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Campaigns.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Campaigns.cs",
+              "RelativeDocumentMoniker": "heineken\\Data\\Campaigns.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Campaigns.cs*",
+              "RelativeToolTip": "heineken\\Data\\Campaigns.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAvwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:35:16.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Robots.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Robots.cs",
-              "RelativeDocumentMoniker": "heineken\\Data\\Robots.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Robots.cs",
-              "RelativeToolTip": "heineken\\Data\\Robots.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:38:14.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Locations.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Locations.cs",
-              "RelativeDocumentMoniker": "heineken\\Data\\Locations.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Locations.cs",
-              "RelativeToolTip": "heineken\\Data\\Locations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:36:14.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LocationController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\LocationController.cs",
-              "RelativeDocumentMoniker": "heineken\\Controllers\\LocationController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\LocationController.cs",
-              "RelativeToolTip": "heineken\\Controllers\\LocationController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAhwEMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T19:20:22.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RobotController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\RobotController.cs",
-              "RelativeDocumentMoniker": "heineken\\Controllers\\RobotController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\RobotController.cs",
-              "RelativeToolTip": "heineken\\Controllers\\RobotController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:55:54.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GiftController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\GiftController.cs",
-              "RelativeDocumentMoniker": "heineken\\Controllers\\GiftController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\GiftController.cs",
-              "RelativeToolTip": "heineken\\Controllers\\GiftController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowCoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T19:40:24.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Gifts.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Gifts.cs",
-              "RelativeDocumentMoniker": "heineken\\Data\\Gifts.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Gifts.cs",
-              "RelativeToolTip": "heineken\\Data\\Gifts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:35:54.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RecyclingMachines.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\RecyclingMachines.cs",
-              "RelativeDocumentMoniker": "heineken\\Data\\RecyclingMachines.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\RecyclingMachines.cs",
-              "RelativeToolTip": "heineken\\Data\\RecyclingMachines.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:37:33.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IRobotService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\RobotService\\IRobotService.cs",
-              "RelativeDocumentMoniker": "heineken\\Service\\RobotService\\IRobotService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\RobotService\\IRobotService.cs",
-              "RelativeToolTip": "heineken\\Service\\RobotService\\IRobotService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:48:41.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IGiftService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\IGiftService.cs",
-              "RelativeDocumentMoniker": "heineken\\Service\\GiftService\\IGiftService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\IGiftService.cs",
-              "RelativeToolTip": "heineken\\Service\\GiftService\\IGiftService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T19:27:21.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GiftService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\GiftService.cs",
-              "RelativeDocumentMoniker": "heineken\\Service\\GiftService\\GiftService.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\GiftService.cs",
-              "RelativeToolTip": "heineken\\Service\\GiftService\\GiftService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T19:23:25.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "RobotModel.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\RobotModel.cs",
               "RelativeDocumentMoniker": "heineken\\Models\\RobotModel.cs",
@@ -314,7 +204,209 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\LocationService.cs",
+              "RelativeDocumentMoniker": "heineken\\Service\\LocationService\\LocationService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\LocationService.cs",
+              "RelativeToolTip": "heineken\\Service\\LocationService\\LocationService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:15:16.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILocationService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\ILocationService.cs",
+              "RelativeDocumentMoniker": "heineken\\Service\\LocationService\\ILocationService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\LocationService\\ILocationService.cs",
+              "RelativeToolTip": "heineken\\Service\\LocationService\\ILocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:12:58.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "heineken\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "heineken\\Controllers\\LocationController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAawCQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:20:22.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "heineken\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "heineken\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:29:58.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GiftModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\GiftModel.cs",
+              "RelativeDocumentMoniker": "heineken\\Models\\GiftModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\GiftModel.cs",
+              "RelativeToolTip": "heineken\\Models\\GiftModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T19:28:18.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LocationModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\LocationModel.cs",
+              "RelativeDocumentMoniker": "heineken\\Models\\LocationModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Models\\LocationModel.cs",
+              "RelativeToolTip": "heineken\\Models\\LocationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:11:20.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "heineken\\Controllers\\GiftController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "heineken\\Controllers\\GiftController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T19:40:24.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GiftService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\GiftService.cs",
+              "RelativeDocumentMoniker": "heineken\\Service\\GiftService\\GiftService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\GiftService.cs",
+              "RelativeToolTip": "heineken\\Service\\GiftService\\GiftService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T19:23:25.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Program.cs",
+              "RelativeDocumentMoniker": "heineken\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Program.cs",
+              "RelativeToolTip": "heineken\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:40:07.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IGiftService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\IGiftService.cs",
+              "RelativeDocumentMoniker": "heineken\\Service\\GiftService\\IGiftService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\GiftService\\IGiftService.cs",
+              "RelativeToolTip": "heineken\\Service\\GiftService\\IGiftService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T19:27:21.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Robots.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Robots.cs",
+              "RelativeDocumentMoniker": "heineken\\Data\\Robots.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Robots.cs",
+              "RelativeToolTip": "heineken\\Data\\Robots.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:38:14.577Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Locations.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Locations.cs",
+              "RelativeDocumentMoniker": "heineken\\Data\\Locations.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Locations.cs",
+              "RelativeToolTip": "heineken\\Data\\Locations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:36:14.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RobotController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\RobotController.cs",
+              "RelativeDocumentMoniker": "heineken\\Controllers\\RobotController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Controllers\\RobotController.cs",
+              "RelativeToolTip": "heineken\\Controllers\\RobotController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:55:54.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Gifts.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Gifts.cs",
+              "RelativeDocumentMoniker": "heineken\\Data\\Gifts.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Gifts.cs",
+              "RelativeToolTip": "heineken\\Data\\Gifts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:35:54.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RecyclingMachines.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\RecyclingMachines.cs",
+              "RelativeDocumentMoniker": "heineken\\Data\\RecyclingMachines.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\RecyclingMachines.cs",
+              "RelativeToolTip": "heineken\\Data\\RecyclingMachines.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:37:33.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRobotService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\RobotService\\IRobotService.cs",
+              "RelativeDocumentMoniker": "heineken\\Service\\RobotService\\IRobotService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\RobotService\\IRobotService.cs",
+              "RelativeToolTip": "heineken\\Service\\RobotService\\IRobotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:48:41.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "MyDbHei.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\MyDbHei.cs",
               "RelativeDocumentMoniker": "heineken\\Data\\MyDbHei.cs",
@@ -326,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "RewardRules.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\RewardRules.cs",
               "RelativeDocumentMoniker": "heineken\\Data\\RewardRules.cs",
@@ -338,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "RobotService.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Service\\RobotService\\RobotService.cs",
               "RelativeDocumentMoniker": "heineken\\Service\\RobotService\\RobotService.cs",
@@ -350,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\appsettings.json",
               "RelativeDocumentMoniker": "heineken\\appsettings.json",
@@ -362,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "20250226194734_adddata.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Migrations\\20250226194734_adddata.cs",
               "RelativeDocumentMoniker": "heineken\\Migrations\\20250226194734_adddata.cs",
@@ -371,18 +463,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T19:47:35.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Campaigns.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Campaigns.cs",
-              "RelativeDocumentMoniker": "heineken\\Data\\Campaigns.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\heineken\\heineken\\Data\\Campaigns.cs",
-              "RelativeToolTip": "heineken\\Data\\Campaigns.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAvwBgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:35:16.722Z"
             }
           ]
         }

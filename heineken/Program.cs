@@ -1,5 +1,6 @@
 using heineken.Data;
 using heineken.Service;
+using heineken.Service.CampaignsService;
 using heineken.Service.GiftService;
 using heineken.Service.LocationService;
 using heineken.Service.RobotService;
@@ -18,7 +19,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IRobotService, RobotService>();
 builder.Services.AddScoped<IGiftService, GiftService>();
 builder.Services.AddScoped<ILocationService, LocationService>();
-
+builder.Services.AddScoped<ICampaignService, CampaignService>();
 
 
 
