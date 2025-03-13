@@ -16,9 +16,9 @@ namespace heineken.Models
 
         public DateTime EndDate { get; set; }
 
-        public CampaignModel()
-        {
-            AssignedMachines = new List<RecyclingMachine>();
-        }
+        //public CampaignModel()
+        //{
+        //    AssignedMachines = new List<RecyclingMachine>();
+        //}
     }
 }

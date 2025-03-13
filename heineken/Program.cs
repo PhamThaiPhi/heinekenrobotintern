@@ -3,6 +3,7 @@ using heineken.Service;
 using heineken.Service.CampaignsService;
 using heineken.Service.GiftService;
 using heineken.Service.LocationService;
+using heineken.Service.RecyclingService;
 using heineken.Service.RobotService;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,7 +21,7 @@ builder.Services.AddScoped<IRobotService, RobotService>();
 builder.Services.AddScoped<IGiftService, GiftService>();
 builder.Services.AddScoped<ILocationService, LocationService>();
 builder.Services.AddScoped<ICampaignService, CampaignService>();
-
+builder.Services.AddScoped<IRecyclingService, RecyclingService>();
 
 
 var app = builder.Build();

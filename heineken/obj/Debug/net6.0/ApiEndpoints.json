@@ -11,22 +11,6 @@
   },
   {
     "ContainingType": "heineken.Controllers.CampaignController",
-    "Method": "CreateCampaign",
-    "RelativePath": "api/Campaign",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "heineken.Models.CampaignModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "heineken.Controllers.CampaignController",
     "Method": "GetCampaignById",
     "RelativePath": "api/Campaign/{id}",
     "HttpMethod": "GET",
@@ -36,27 +20,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "heineken.Controllers.CampaignController",
-    "Method": "UpdateCampaign",
-    "RelativePath": "api/Campaign/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "model",
-        "Type": "heineken.Models.CampaignModel",
         "IsRequired": true
       }
     ],
@@ -224,6 +187,48 @@
     "ContainingType": "heineken.Controllers.LocationController",
     "Method": "Delete",
     "RelativePath": "api/Location/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "heineken.Controllers.RecyclingController",
+    "Method": "GetAllRecy",
+    "RelativePath": "api/Recycling",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "heineken.Controllers.RecyclingController",
+    "Method": "GetRecyById",
+    "RelativePath": "api/Recycling/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "heineken.Controllers.RecyclingController",
+    "Method": "DeleteRecy",
+    "RelativePath": "api/Recycling/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
