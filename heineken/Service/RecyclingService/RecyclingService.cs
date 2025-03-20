@@ -26,21 +26,18 @@ namespace heineken.Service.RecyclingService
 
         public RecyclingMachine CreateRecy(RecyclingModel model)
         {
-            var newMachine = new RecyclingMachine
+            var newRobot = new RecyclingMachine
             {
-                MachineName = model.MachineName,      
+                MachineName = model.MachineName,
                 ActivityLocation = model.ActivityLocation,
-                DateAdded = DateTime.Now,
-                AccessCount = model.AccessCount,
-                LastConnectionTime = DateTime.Now,
                 MachineStatus = (RecyclingMachine.Status)model.MachineStatus,
-                BinStatus = (RecyclingMachine.FillStatus)model.BinStatus
-
+                LastConnectionTime = model.LastConnectionTime,
+                //RobotStatus = (Robots.Status)model.RobotStatus
             };
 
-            _context.RecyclingMachines.Add(newMachine);
+            _context.RecyclingMachines.Add(newRobot);
             _context.SaveChanges();
-            return newMachine;
+            return newRobot;
         }
 
         public RecyclingMachine UpdateRecy(int id, RecyclingModel model)

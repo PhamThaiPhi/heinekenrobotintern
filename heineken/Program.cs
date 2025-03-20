@@ -4,6 +4,7 @@ using heineken.Service.CampaignsService;
 using heineken.Service.GiftService;
 using heineken.Service.LocationService;
 using heineken.Service.RecyclingService;
+using heineken.Service.RewardService;
 using heineken.Service.RobotService;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,11 +18,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ICampaignService, CampaignService>();
+builder.Services.AddScoped<IRecyclingService, RecyclingService>();
 builder.Services.AddScoped<IRobotService, RobotService>();
 builder.Services.AddScoped<IGiftService, GiftService>();
 builder.Services.AddScoped<ILocationService, LocationService>();
-builder.Services.AddScoped<ICampaignService, CampaignService>();
-builder.Services.AddScoped<IRecyclingService, RecyclingService>();
+builder.Services.AddScoped<IRewardService, RewardService>();
+
 
 
 var app = builder.Build();

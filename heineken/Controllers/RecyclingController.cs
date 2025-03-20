@@ -40,13 +40,13 @@ namespace heineken.Controllers
         //{
         //    if (model == null)
         //    {
-        //        return BadRequest(new { Message = "Invalid recycling machine data." });
+        //        return BadRequest(new { Message = "Invalid flight data." });
         //    }
 
         //    try
         //    {
-        //        var createdMachine = _recyclingService.CreateRecy(model);
-        //        return CreatedAtAction(nameof(GetRecyById), new { id = createdMachine.MachineID }, createdMachine);
+        //        var createdFlight = _recyclingService.CreateRecy(model);
+        //        return CreatedAtAction(nameof(GetRecyById), new { id = createdFlight.MachineID }, createdFlight);
         //    }
         //    catch (Exception ex)
         //    {

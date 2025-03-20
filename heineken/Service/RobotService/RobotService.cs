@@ -37,7 +37,7 @@ namespace heineken.Service.RobotService
                 ActivityLocation = model.ActivityLocation,
                 BatteryLevel = model.BatteryLevel,
                 LastConnectionTime = model.LastConnectionTime,
-                //RobotStatus = model.RobotStatus
+                RobotStatus = (Robots.Status)model.RobotStatus
             };
 
             _context.Robots.Add(newRobot);

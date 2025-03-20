@@ -45,7 +45,7 @@ namespace heineken.Controllers
             try
             {
                 var createdFlight = _robotService.CreateRobots(robots);
-                return CreatedAtAction(nameof(GetById), new { id = createdFlight.RobotID                            }, createdFlight);
+                return CreatedAtAction(nameof(GetById), new { id = createdFlight.RobotID                           }, createdFlight);
             }
             catch (Exception ex)
             {
