@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "heineken.Controllers.CampaignController",
+    "Method": "CreateCampaign",
+    "RelativePath": "api/Campaign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "heineken.Models.CampaignModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "heineken.Controllers.CampaignController",
     "Method": "GetCampaignById",
     "RelativePath": "api/Campaign/{id}",
     "HttpMethod": "GET",
@@ -20,6 +36,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "heineken.Controllers.CampaignController",
+    "Method": "UpdateCampaign",
+    "RelativePath": "api/Campaign/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "heineken.Models.CampaignModel",
         "IsRequired": true
       }
     ],
@@ -211,6 +248,22 @@
   },
   {
     "ContainingType": "heineken.Controllers.RecyclingController",
+    "Method": "CreateRecy",
+    "RelativePath": "api/Recycling",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "heineken.Models.RecyclingModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "heineken.Controllers.RecyclingController",
     "Method": "GetRecyById",
     "RelativePath": "api/Recycling/{id}",
     "HttpMethod": "GET",
@@ -220,6 +273,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "heineken.Controllers.RecyclingController",
+    "Method": "UpdateRecy",
+    "RelativePath": "api/Recycling/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "heineken.Models.RecyclingModel",
         "IsRequired": true
       }
     ],

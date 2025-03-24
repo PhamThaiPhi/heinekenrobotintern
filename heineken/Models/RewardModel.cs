@@ -11,7 +11,7 @@ namespace heineken.Models
         [Range(0, int.MaxValue)]
         public int PointsRequired { get; set; }
 
-        public List<Gift> AvailableGifts { get; set; }
+        //public List<Gift> AvailableGifts { get; set; }
 
         
     }

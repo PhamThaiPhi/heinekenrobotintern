@@ -15,6 +15,35 @@
             "description": "Success"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Campaign"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampaignModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampaignModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampaignModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/Campaign/{id}": {
@@ -33,6 +62,46 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Campaign"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampaignModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampaignModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampaignModel"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
@@ -321,6 +390,35 @@
             "description": "Success"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Recycling"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecyclingModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecyclingModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecyclingModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/Recycling/{id}": {
@@ -339,6 +437,46 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Recycling"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecyclingModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecyclingModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecyclingModel"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
@@ -753,6 +891,31 @@
   },
   "components": {
     "schemas": {
+      "CampaignModel": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "Gift": {
         "required": [
           "name"
@@ -852,6 +1015,36 @@
         },
         "additionalProperties": false
       },
+      "RecyclingModel": {
+        "required": [
+          "activityLocation",
+          "machineName"
+        ],
+        "type": "object",
+        "properties": {
+          "machineName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "activityLocation": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dateAdded": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "accessCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lastConnectionTime": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "RewardModel": {
         "required": [
           "description"
@@ -867,13 +1060,6 @@
             "minimum": 0,
             "type": "integer",
             "format": "int32"
-          },
-          "availableGifts": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Gift"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false

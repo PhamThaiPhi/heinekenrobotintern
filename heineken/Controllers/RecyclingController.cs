@@ -35,47 +35,48 @@ namespace heineken.Controllers
             return NotFound(new { Message = $"Recycling machine with ID {id} not found." });
         }
 
-        //[HttpPost]
-        //public IActionResult CreateRecy([FromBody] RecyclingModel model)
-        //{
-        //    if (model == null)
-        //    {
-        //        return BadRequest(new { Message = "Invalid flight data." });
-        //    }
+        [HttpPost]
+        public IActionResult CreateRecy([FromBody] RecyclingModel model)
+        {
+            if (model == null)
+            {
+                return BadRequest(new { Message = "Invalid flight data." });
+            }
 
-        //    try
-        //    {
-        //        var createdFlight = _recyclingService.CreateRecy(model);
-        //        return CreatedAtAction(nameof(GetRecyById), new { id = createdFlight.MachineID }, createdFlight);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, new { Message = $"An error occurred: {ex.Message}" });
-        //    }
-        //}
+            try
+            {
+                var createdFlight = _recyclingService.CreateRecy(model);
+                return CreatedAtAction(nameof(GetRecyById), new { id = createdFlight.MachineID }, createdFlight);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = $"An error occurred: {ex.Message}" });
+            }
+        }
 
-        //[HttpPut("{id}")]
-        //public IActionResult UpdateRecy(int id, [FromBody] RecyclingModel model)
-        //{
-        //    if (model == null)
-        //    {
-        //        return BadRequest(new { Message = "Invalid recycling machine data." });
-        //    }
+        [HttpPut("{id}")]
+        public IActionResult UpdateRecy(int id, [FromBody] RecyclingModel model)
+        {
+            if (model == null)
+            {
+                return BadRequest(new { Message = "Invalid recycling machine data." });
+            }
 
-        //    try
-        //    {
-        //        var updatedMachine = _recyclingService.UpdateRecy(id, model);
-        //        return Ok(updatedMachine);
-        //    }
-        //    catch (KeyNotFoundException ex)
-        //    {
-        //        return NotFound(new { Message = ex.Message });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, new { Message = $"An error occurred: {ex.Message}" });
-        //    }
-        //}
+            try
+            {
+                var updatedMachine = _recyclingService.UpdateRecy(id, model);
+                return Ok(updatedMachine);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, new { Message = $"An error occurred: {ex.Message}" });
+            }
+        }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteRecy(int id)

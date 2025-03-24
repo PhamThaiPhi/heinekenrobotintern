@@ -7,7 +7,7 @@ namespace heineken.Models
         [Required]
         public string? MachineName { get; set; }
 
-        public Status MachineStatus { get; set; }
+        //public Status MachineStatus { get; set; }
 
         [Required]
         public string? ActivityLocation { get; set; }
@@ -16,23 +16,23 @@ namespace heineken.Models
 
         public int AccessCount { get; set; }
 
-        public FillStatus BinStatus { get; set; }
+        //public FillStatus BinStatus { get; set; }
 
         public DateTime LastConnectionTime { get; set; }
 
 
 
-        public enum Status
-        {
-            Online,
-            Offline
-        }
+        //public enum Status
+        //{
+        //    Online,
+        //    Offline
+        //}
 
 
-        public enum FillStatus
-        {
-            Empty,
-            AlmostFull
-        }
+        //public enum FillStatus
+        //{
+        //    Empty,
+        //    AlmostFull
+        //}
     }
 }

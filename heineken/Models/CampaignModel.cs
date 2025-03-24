@@ -10,7 +10,7 @@ namespace heineken.Models
 
         public string Description { get; set; }
 
-        public List<RecyclingMachine> AssignedMachines { get; set; }
+        //public List<RecyclingMachine> AssignedMachines { get; set; }
 
         public DateTime StartDate { get; set; }
 

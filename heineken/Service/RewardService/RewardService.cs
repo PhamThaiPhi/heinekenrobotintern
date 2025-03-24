@@ -30,7 +30,7 @@ namespace heineken.Service.RewardService
             {
                 Description = model.Description,
                 PointsRequired = model.PointsRequired,
-                AvailableGifts = model.AvailableGifts,
+                //AvailableGifts = model.AvailableGifts,
             };
 
             _context.RewardRules.Add(newRobot);
@@ -47,7 +47,7 @@ namespace heineken.Service.RewardService
 
             existingRobot.Description = robots.Description;
             existingRobot.PointsRequired = robots.PointsRequired;
-            existingRobot.AvailableGifts = robots.AvailableGifts;
+            //existingRobot.AvailableGifts = robots.AvailableGifts;
             _context.SaveChanges();
             return existingRobot;
         }

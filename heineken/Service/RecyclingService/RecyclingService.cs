@@ -30,9 +30,11 @@ namespace heineken.Service.RecyclingService
             {
                 MachineName = model.MachineName,
                 ActivityLocation = model.ActivityLocation,
-                MachineStatus = (RecyclingMachine.Status)model.MachineStatus,
+                //MachineStatus = (RecyclingMachine.Status)model.MachineStatus,
                 LastConnectionTime = model.LastConnectionTime,
-                //RobotStatus = (Robots.Status)model.RobotStatus
+                DateAdded = model.DateAdded,
+                AccessCount = model.AccessCount,
+                //BinStatus = (RecyclingMachine.FillStatus)model.BinStatus,
             };
 
             _context.RecyclingMachines.Add(newRobot);
@@ -49,11 +51,11 @@ namespace heineken.Service.RecyclingService
             }
 
             existingMachine.MachineName = model.MachineName;
-            existingMachine.MachineStatus = (RecyclingMachine.Status)model.MachineStatus;
+            //existingMachine.MachineStatus = (RecyclingMachine.Status)model.MachineStatus;
             existingMachine.ActivityLocation = model.ActivityLocation;
             existingMachine.AccessCount = model.AccessCount;
-            existingMachine.BinStatus = (RecyclingMachine.FillStatus)model.BinStatus;
-            existingMachine.LastConnectionTime = DateTime.Now;
+            //existingMachine.BinStatus = (RecyclingMachine.FillStatus)model.BinStatus;
+            //existingMachine.LastConnectionTime = DateTime.Now;
 
             _context.SaveChanges();
             return existingMachine;

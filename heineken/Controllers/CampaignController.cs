@@ -34,45 +34,45 @@ namespace heineken.Controllers
             return NotFound(new { Message = $"Campaign with ID {id} not found." });
         }
 
-        //[HttpPost]
-        //public IActionResult CreateCampaign([FromBody] CampaignModel model)
-        //{
-        //    if (model == null)
-        //    {
-        //        return BadRequest(new { Message = "Invalid campaign data." });
-        //    }
+        [HttpPost]
+        public IActionResult CreateCampaign([FromBody] CampaignModel model)
+        {
+            if (model == null)
+            {
+                return BadRequest(new { Message = "Invalid campaign data." });
+            }
 
-        //    try
-        //    {
-        //        var createdCampaign = _campaignService.CreateCamp(model);
-        //        return CreatedAtAction(nameof(GetCampaignById), new { id = createdCampaign.CampaignID }, createdCampaign);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, new { Message = $"An error occurred: {ex.Message}" });
-        //    }
-        //}
+            try
+            {
+                var createdCampaign = _campaignService.CreateCamp(model);
+                return CreatedAtAction(nameof(GetCampaignById), new { id = createdCampaign.CampaignID }, createdCampaign);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = $"An error occurred: {ex.Message}" });
+            }
+        }
 
-        //[HttpPut("{id}")]
-        //public IActionResult UpdateCampaign(int id, [FromBody] CampaignModel model)
-        //{
-        //    if (model == null)
-        //        return BadRequest(new { Message = "Invalid campaign data." });
+        [HttpPut("{id}")]
+        public IActionResult UpdateCampaign(int id, [FromBody] CampaignModel model)
+        {
+            if (model == null)
+                return BadRequest(new { Message = "Invalid campaign data." });
 
-        //    try
-        //    {
-        //        var updatedCampaign = _campaignService.UpdateCamp(id, model);
-        //        return Ok(updatedCampaign);
-        //    }
-        //    catch (KeyNotFoundException ex)
-        //    {
-        //        return NotFound(new { Message = ex.Message });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, new { Message = $"System error: {ex.Message}" });
-        //    }
-        //}
+            try
+            {
+                var updatedCampaign = _campaignService.UpdateCamp(id, model);
+                return Ok(updatedCampaign);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = $"System error: {ex.Message}" });
+            }
+        }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteCampaign(int id)

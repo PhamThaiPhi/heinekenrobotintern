@@ -25,15 +25,11 @@ namespace heineken.Data
 
         public DateTime LastConnectionTime { get; set; }
 
-
-
         public enum Status
         {
             Online,
             Offline
         }
-
-
         public enum FillStatus
         {
             Empty,
